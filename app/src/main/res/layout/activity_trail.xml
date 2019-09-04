@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trail">
+
+    <RelativeLayout
+        android:id="@+id/RL_a1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/ll_CN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="课程:"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/className"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_CR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_CN"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="教室:"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/classRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/classTime1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上课时间:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_below="@id/ll_CR"/>
+
+        <LinearLayout
+            android:id="@+id/fromTo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classTime1"
+            android:paddingTop="5dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/weekday1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/weekday"/>
+            <Spinner
+                android:id="@+id/from1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/ct"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="到"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:id="@+id/to1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/ct"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="节"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/classTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上课时间:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_below="@id/fromTo1"/>
+
+        <LinearLayout
+            android:id="@+id/fromTo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classTime2"
+            android:paddingTop="5dp"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/weekday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/weekday"/>
+            <Spinner
+                android:id="@+id/from2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/ct"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="到"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:id="@+id/to2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/ct"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="节"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

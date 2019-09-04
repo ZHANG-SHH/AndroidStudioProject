@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Week1">第1周</string>
+    <string name="Week2">第2周</string>
+    <string name="Week3">第3周</string>
+    <string name="Week4">第4周</string>
+    <string name="Week5">第5周</string>
+    <string name="Week6">第6周</string>
+    <string name="Week7">第7周</string>
+    <string name="Week8">第8周</string>
+    <string name="Week9">第9周</string>
+    <string name="Week10">第10周</string>
+    <string name="Week11">第11周</string>
+    <string name="Week12">第12周</string>
+    <string name="Week13">第13周</string>
+    <string name="Week14">第14周</string>
+    <string name="Week15">第15周</string>
+    <string name="Week16">第16周</string>
+    <string name="Week17">第17周</string>
+    <string name="Week18">第18周</string>
+    <string name="Week19">第19周</string>
+    <string name="Week20">第20周</string>
+    <string name="Week21">第21周</string>
+    <string name="Week22">第22周</string>
+    <string name="Week23">第23周</string>
+    <string name="Week24">第24周</string>
+    <string name="Week25">第25周</string>
+
+
+</resources>
